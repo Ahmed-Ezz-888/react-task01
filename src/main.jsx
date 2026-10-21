@@ -8,7 +8,7 @@ createRoot(document.getElementById("root")).render(
     <header className="w-full bg-[rgba(248, 249, 250, 0.8)]">
       <div className="container mx-auto px-6 py-4 flex justify-between ">
         <div className="flex logo">
-          <img src="/public/Background.svg"></img>
+          <img src="/src/assets/Background.svg"></img>
           <h1 className="flex items-center pb-5">Gourmet Bistro</h1>
         </div>
         <nav className="flex gap-8 justify-center items-center pb-3 ">
@@ -45,7 +45,7 @@ createRoot(document.getElementById("root")).render(
       </div>
       <div className="flex items-center gap-5 mt-8 mr-55">
         <img
-          src="/public/Container (1).png "
+          src="/src/assets/Container (1).png "
           className="w-20 h-10 object-contain"
         ></img>
         <p className="text-[#E5E7EB] m2">
@@ -56,7 +56,7 @@ createRoot(document.getElementById("root")).render(
 
     <section id="story" className="container mx-auto px-6 story">
       <div className="story-image">
-        <img src="/public/Professional chef carefully garnishing a gourmet plate in a high-end kitchen, close-up, shallow depth of field..png" />
+        <img src="/src/assets/Professional chef carefully garnishing a gourmet plate in a high-end kitchen, close-up, shallow depth of field..png" />
         <div className="years">
           <h2>15+</h2>
           <p>YEARS OF EXCELLENCE</p>
@@ -85,7 +85,7 @@ createRoot(document.getElementById("root")).render(
 
         <div className="flex gap-8 mt-8">
           <div className="feature">
-            <img src="/public/Overlay.svg"></img>
+            <img src="/src/assets/Overlay.svg"></img>
             <div>
               <h3>Fresh Harvest</h3>
               <p>Daily sourced organic ingredients.</p>
@@ -93,7 +93,7 @@ createRoot(document.getElementById("root")).render(
           </div>
 
           <div className="feature">
-            <img src="/public/Overlay (1).svg"></img>
+            <img src="/src/assets/Overlay (1).svg"></img>
             <div>
               <h3>Expert Chefs</h3>
               <p>Award-winning culinary team.</p>
@@ -112,7 +112,7 @@ createRoot(document.getElementById("root")).render(
         <div className="mx-auto grid max-w-215 grid-cols-2 gap-4">
           <div className="h-96.5 overflow-hidden rounded-[20px]">
             <img
-              src="/public/Top-down view of a perfectly cooked medium-rare steak with rosemary and roasted vegetables on a white plate..png"
+              src="/src/assets/Top-down view of a perfectly cooked medium-rare steak with rosemary and roasted vegetables on a white plate..png"
               alt="Steak"
               className="h-full w-full object-cover"
             />
@@ -121,7 +121,7 @@ createRoot(document.getElementById("root")).render(
           <div className="flex flex-col gap-8.5">
             <div className="h-41.5 overflow-hidden rounded-[20px]">
               <img
-                src="/public/Fresh seafood platter with oysters, shrimp, and lemon on a bed of ice, vibrant colors..png"
+                src="/src/assets/Fresh seafood platter with oysters, shrimp, and lemon on a bed of ice, vibrant colors..png"
                 alt="Seafood"
                 className="h-full w-full object-cover"
               />
@@ -130,7 +130,7 @@ createRoot(document.getElementById("root")).render(
             <div className="grid grid-cols-2 gap-3.75">
               <div className="h-41.5 overflow-hidden rounded-[20px]">
                 <img
-                  src="/public/Close-up of a stylish restaurant lounge area with velvet chairs and modern art..png"
+                  src="/src/assets/Close-up of a stylish restaurant lounge area with velvet chairs and modern art..png"
                   alt="Restaurant"
                   className="h-full w-full object-cover"
                 />
@@ -138,7 +138,7 @@ createRoot(document.getElementById("root")).render(
 
               <div className="h-41.5 overflow-hidden rounded-[20px]">
                 <img
-                  src="/public/Beautifully crafted colorful cocktail with fruit garnish and ice, professional product photography..png"
+                  src="/src/assets/Beautifully crafted colorful cocktail with fruit garnish and ice, professional product photography..png"
                   alt="Drink"
                   className="h-full w-full object-cover"
                 />
